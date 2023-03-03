@@ -4,13 +4,13 @@
 
 This tutorial was developed assuming no prior knowledge of the tool, and little
 knowledge of the command line (terminal). It aims to be beginner-friendly by
-giving a lot of details. To get the most out of it, you recommend that you run
+giving a lot of details. To get the most out of it, you are recommended that you run
 the commands throughout the tutorial and compare your outputs with the outputs
 from the example.
 
 Every time you need to run a command, you will see two tabs, one for the command
 you need to run, and another one with the expected output. While you can copy
-the command, you recommend that you type each command, which is good for your
+the command, you are recommended that you type each command, which is good for your
 procedural memory :brain:. The **Command** and **Output** tabs will look like
 these:
 
@@ -28,8 +28,8 @@ these:
     ```
 
 Note that in the Output tab, the content before the command prompt (`$`) will be
-dependend or your operating system and terminal configuration. What you want to
-compare is what follows it and the output below the command that was ran. The
+dependent on your operating system and terminal configuration. What you want to
+compare is what follows it and the output below the command that was run. The
 output you see was taken directly out of your terminal when you tested the
 tutorial.
 

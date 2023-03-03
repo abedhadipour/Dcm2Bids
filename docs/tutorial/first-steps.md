@@ -47,7 +47,7 @@ have to activate your dedicated environment for dcm2bids.
 Note that you use `dcm2bids` as the name of the environment but you should use
 the name you gave your environment when you created it.
 
-If you used Anaconda Navigator to install dcm2bids and create you environment,
+If you used Anaconda Navigator to install dcm2bids and created your environment,
 make sure to open your environment from Navigator as indicated in [Create your environment with the Anaconda Navigator GUI](../get-started/install.md#install-dcm2bids).
 
 === "Command"
@@ -110,17 +110,17 @@ You can test it with any command but a safe way is to use the `--help` command.
 
     ```
 
-??? bug "What you can do if you did not get this output"
+??? bug "What can you do if you did not get this output"
 
-    If you got `dcm2bids: command not found`, it means dcm2bids is not either not installed or not accessible in your current environment. Did you activate your environment?
+    If you got `dcm2bids: command not found`, it means dcm2bids is either not installed or not accessible in your current environment. Did you activate your environment?
 
     Visit the [installation page](../get-started/install.md) for more info.
 
 ### Create a new directory for this tutorial
 
-For the tutorial, you recommend that you create a new directory (folder) instead
+For the tutorial, you are recommended that you create a new directory (folder) instead
 of jumping straight into a real project directory with real data. In this
-tutorial, we decided to named our project directory `dcm2bids-tutorial`.
+tutorial, we decided to name our project directory `dcm2bids-tutorial`.
 
 === "Command"
 
@@ -144,8 +144,7 @@ tutorial, we decided to named our project directory `dcm2bids-tutorial`.
 While scaffolding is a not mandatory step before converting data with the main
 `dcm2bids` command, it is highly recommended when you plan to convert data.
 dcm2bids has a command named **`dcm2bids_scaffold`** that will help you
-structure and organize your data in an efficient way by creating automatically
-for you a basic directory structure and the core files according to the [Brain
+structure and organize your data in an efficient way by automatically creating a basic directory structure and core files according to the [Brain
 Imaging Data Structure (BIDS) specification][bids-spec].
 
 ### Tree structure of the scaffold created by dcm2bids
@@ -165,12 +164,12 @@ scaffold_directory/
 ```
 
 Describing the function of each directory and files is out of the scope of this
-tutorial but if you want to learn more about BIDS, you encourage you to go
+tutorial, but if you want to learn more about BIDS, you are encouraged to go
 through the [BIDS Starter Kit][bids-starter-kit].
 
 ### Run `dcm2bids_scaffold`
 
-To find out how to run `dcm2bids_scaffold` work, you can use the `--help`
+To find out how `dcm2bids_scaffold` work, you can use the `--help`
 option.
 
 === "Command"
@@ -198,8 +197,8 @@ option.
     ```
 
 As you can see at lines 9-10, `dcm2bids_scaffold` has an `--output_dir` (or `-o`
-for short) option with a default option, which means you can either specify
-where you want the scaffolding to happen to be or it will create the scaffold in
+for short) option with a default option, which means that you can either specify
+where you want the scaffolding to be executed or it will create the scaffold in
 the current directory as a default.
 
 Below you can see the difference between specifying `-o output_dir` and NOT
@@ -239,7 +238,7 @@ scaffold beforehand, the command will create it for you.
     code/    derivatives/              participants.tsv   sourcedata/
     ```
 
-For the purpose of the tutorial, you chose to specify the output directory
+For the purposes of the tutorial, you chose to specify the output directory
 **`bids_project`** as if it were the start of a new project. For your real
 projects, you can choose to create a new directory with the commands or not, it
 is entirely up to you.
@@ -272,7 +271,7 @@ For this tutorial, you will use a set of DICOMs made available by
     You use the [dcm_qa_nih][dcm_qc_nih] data because it is the data used by the
     dcm2niix developers to validate the DICOM to NIfTI conversion process and it
     has been proven stable since 2017. It also includes data from both GE as
-    well as Siemens MRI scanners so it gives a bit a diversity of data provenance.
+    well as Siemens MRI scanners so there is a bit a diversity of data provenance.
 
 To download the data, you can use your terminal or the GitHub interface. You can
 do it any way you want as long as the directory with the dicoms is in
